@@ -1,0 +1,58 @@
+# depslib dependency file v1.0
+1699212550 source:c:\users\hp\onedrive\masaüstü\keepcoding\grup171prolab1.proje\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<curl/curl.h>
+	<SDL2/SDL.h>
+	<math.h>
+	<SDL2/SDL_ttf.h>
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	"easy.h"
+	"multi.h"
+	"urlapi.h"
+	"options.h"
+	"header.h"
+	"websockets.h"
+	"typecheck-gcc.h"
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\curlver.h
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\system.h
+	<ConditionalMacros.h>
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\easy.h
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\multi.h
+	"curl.h"
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\urlapi.h
+	"curl.h"
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\options.h
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\header.h
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\websockets.h
+
+1697484553 c:\users\hp\onedrive\masaüstü\curl-8.4.0_3-win64-mingw\curl-8.4.0_3-win64-mingw\include\curl\typecheck-gcc.h
+

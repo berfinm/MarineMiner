@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="grup171prolab1.proje" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/grup171prolab1.proje" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/include" />
+				</Compiler>
+				<Linker>
+					<Add library="mingw32" />
+					<Add library="SDL2main" />
+					<Add library="SDL2" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libbrotlicommon.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libbrotlidec.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libcrypto.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libcurl.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libcurl.dll.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libnghttp2.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libnghttp3.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libngtcp2.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libngtcp2_crypto_quictls.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libssh2.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libssl.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libz.a" />
+					<Add library="C:/Users/Hp/OneDrive/Masaüstü/curl-8.4.0_3-win64-mingw/curl-8.4.0_3-win64-mingw/lib/libzstd.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/grup171prolab1.proje" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
